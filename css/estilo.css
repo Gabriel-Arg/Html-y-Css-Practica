@@ -1,0 +1,30 @@
+.titulos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(66, 66, 66);
+}
+
+tr, td, th {
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* border-collapse: collapse; */
+    padding: 5px;
+}
+
+/* ---------CALCULADORA--------------------- */
+.calculadora {
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgba(0, 139, 139, 0.074);
+}
+
+.calculadora_btn {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.calculadora_btn:hover {
+    background-color: rgb(2, 255, 255);
+}
