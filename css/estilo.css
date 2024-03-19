@@ -17,7 +17,7 @@ tr, td, th {
     border-radius: 5px;
     padding: 5px;
     width: 200px;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgba(0, 139, 139, 0.074);
 }
 
@@ -27,4 +27,24 @@ tr, td, th {
 }
 .calculadora_btn:hover {
     background-color: rgb(2, 255, 255);
+}
+
+.operador {
+    cursor: pointer;
+}
+.operador:hover {
+    background-color: rgb(2, 255, 255);
+}
+
+.display {
+    height: 60px;
+}
+
+.display_2 {
+    /* border: 1px dashed red; */
+}
+
+.resultado {
+    /* border: 1px dashed blue; */
+    height: 40px;
 }

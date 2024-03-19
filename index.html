@@ -1,20 +1,23 @@
-<!DOCTYPE html>   <!-- Etiqueta cerrada -->
+<!DOCTYPE html> <!-- Etiqueta cerrada -->
 
-<html lang="es-AR">    <!--DETERMINA EL IDIOMA BASE ESPAÑOL y como region o país Argentina se lo informa al navegador-->
+<html lang="es-AR"> <!--DETERMINA EL IDIOMA BASE ESPAÑOL y como region o país Argentina se lo informa al navegador-->
 
 <head>
     <!-- ------------META DATOS--------------------------------------------------------------- -->
     <meta name="author" content="Gabriel Díaz"> <!-- Indica quien es el autor del siguiente proyecto -->
-    <meta charset="UTF-8">  <!--DEFINE EL CONJUNTO DE CARACTERES TIPICOS DEL IDIOMA ESPAÑOL-->
+    <meta charset="UTF-8"> <!--DEFINE EL CONJUNTO DE CARACTERES TIPICOS DEL IDIOMA ESPAÑOL-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Aca va una descripción resumida"> <!--Es la descripción que se mostrará debajo del Titulo de la página en un motor de busqueda-->
-    <meta name="robots" content="index,follow"> <!-- Autorizamos a todos los robots de los motores de busqueda a que nos ayuden a posicionar nuestra página -->
+    <meta name="description" content="Aca va una descripción resumida">
+    <!--Es la descripción que se mostrará debajo del Titulo de la página en un motor de busqueda-->
+    <meta name="robots" content="index,follow">
+    <!-- Autorizamos a todos los robots de los motores de busqueda a que nos ayuden a posicionar nuestra página -->
     <meta name="keywords" content="aquí, van, palabras, claves"> <!-- Meta: PALABRAS CLAVES -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  <!-- Meta: para que la página sea RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta: para que la página sea RESPONSIVE -->
 
     <!--------......-PESTAÑA DEL NAGEGADOR------------------------------------------------------->
-    <title> W3School Practica </title>  <!-- TITULO EN LA PESTAÑA DEL NAVEGADOR -->
-    <link rel="icon" href="img/w3s-icon-vector.png">  <!-- ICONO DE LA PESTAÑA DEL NAVEGADOR -->
+    <title> W3School Practica </title> <!-- TITULO EN LA PESTAÑA DEL NAVEGADOR -->
+    <link rel="icon" href="img/w3s-icon-vector.png"> <!-- ICONO DE LA PESTAÑA DEL NAVEGADOR -->
 
     <!--FRAMEWORKS Y LIBRERÍAS -->
     <!-- GOOGLE FONTS -->
@@ -26,13 +29,14 @@
 
     <!-------------ESTILO INTERNO----------------------------------------------------------------->
     <style>
-        
-    </style> 
+
+    </style>
 </head>
 
 
 <body>
 
+    <!--          TITULO DE SECCION                                     -->
     <h2 class="titulos">TABLAS</h2>
 
     <table>
@@ -45,41 +49,77 @@
             <td>Gabriel Diaz</td>
             <td>39 años</td>
         </tr>
-        
-    </table>
 
+    </table>
     <br>
 
+    <!--          TITULO DE SECCION                                   -->
+    <h2 class="titulos">CALCULADORA</h2>
+
     <!-- ---------------------------------- -->
-<table class="calculadora">
-    <tr>
-        <td colspan="4"><input type="text" class="resultado" disabled></td>
-    </tr>
-    <tr>
-        <td class="calculadora_btn">7</td>
-        <td class="calculadora_btn">8</td>
-        <td class="calculadora_btn">9</td>
-        <td>/</td>
-    </tr>
-    <tr>
-        <td class="calculadora_btn">4</td>
-        <td class="calculadora_btn">5</td>
-        <td class="calculadora_btn">6</td>
-        <td>*</td>
-    </tr>
-    <tr>
-        <td class="calculadora_btn">1</td>
-        <td class="calculadora_btn">2</td>
-        <td class="calculadora_btn">3</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td class="calculadora_btn">0</td>
-        <td>.</td>
-        <td>=</td>
-        <td>+</td>
-    </tr>
-</table>
+    <table class="calculadora">
+        <tr class="display">
+            <td class="display_2" colspan="4"><input type="text" class="resultado" disabled></td>
+        </tr>
+        <tr>
+            <td class="calculadora_btn">7</td>
+            <td class="calculadora_btn">8</td>
+            <td class="calculadora_btn">9</td>
+            <td class="operador">/</td>
+        </tr>
+        <tr>
+            <td class="calculadora_btn">4</td>
+            <td class="calculadora_btn">5</td>
+            <td class="calculadora_btn">6</td>
+            <td class="operador">*</td>
+        </tr>
+        <tr>
+            <td class="calculadora_btn">1</td>
+            <td class="calculadora_btn">2</td>
+            <td class="calculadora_btn">3</td>
+            <td class="operador">-</td>
+        </tr>
+        <tr>
+            <td class="calculadora_btn">0</td>
+            <td class="operador">.</td>
+            <td class="operador">=</td>
+            <td class="operador">+</td>
+        </tr>
+    </table>
+
+    <!--          TITULO DE SECCION                                   -->
+    <h2 class="titulos">CALENDARIO</h2>
+
+    <table>
+        <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th class="weekend">Sábado</th>
+            <th class="weekend">Domingo</th>
+        </tr>
+        <tr>
+            <td></td> <!-- Días de la semana anterior -->
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td class="weekend">2</td>
+            <td class="weekend">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td class="weekend">9</td>
+            <td class="weekend">10</td>
+        </tr>
+        <!-- Continúa con el resto de las filas y celdas para cada día del mes -->
+    </table>
 
 
 
