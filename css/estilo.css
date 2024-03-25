@@ -117,7 +117,34 @@ tr, td, th {
     border: 4px solid rgb(72, 0, 77);
 }
 
+/* ---------TABLA RAYADA--------------------- */
 
+.rayada {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 10px;
+}
+.rayada_fila:nth-child(even) {
+    background-color: rgba(137, 43, 226, 0.404);
+}
+
+.rayada_fila .rayada_fila_celda:nth-child(odd) {
+    background-color: rgba(238, 130, 238, 0.353);
+}
+
+.rayada_fila2:hover {
+    background-color: rgb(225, 255, 0);
+    cursor: pointer;
+}
+
+.rayada_fila_border td {
+    border: none;
+}
+
+.rayada_fila_border {
+    border: none;
+    border-bottom: 1px solid black;
+}
 
 
 
