@@ -146,6 +146,41 @@ tr, td, th {
     border-bottom: 1px solid black;
 }
 
+/* ---------ELEGIR EL MARCADOR--------------------- */
 
+.marcador1 {
+    list-style-type: disc;
+}
+.marcador2 {
+    list-style-type: circle;
+}
+.marcador3 {
+    list-style-type: square;
+}
+.marcador4 {
+    list-style-type: none;
+}
 
-
+.ul_nav {
+    /* border: 1px dashed red; */
+    padding: 10px 30px;
+    background-color: gray;
+}
+.ul_nav_li {
+    /* border: 1px dashed green; */
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    width: 100px;
+    list-style-type: none;
+    text-align: center;
+}
+.ul_nav_li:hover {
+    background-color: cyan;
+    cursor: pointer;
+}
+.ul_nav_li a {
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
