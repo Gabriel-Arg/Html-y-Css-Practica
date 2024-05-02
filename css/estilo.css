@@ -31,3 +31,33 @@ h2 {
     margin: auto;
 }
 
+/* ----------MULTIPLES DIV ALINEADOS AL CENTRO */
+.cont_1 {
+    border: 1px dashed red;
+    padding: 10px;
+}
+
+.card3 {
+    border: 1px dashed blue;
+    background-color: rgb(247, 228, 178);
+    padding: 0px 50px;
+    width: 30%;
+}
+
+/* ---ALINEADOS CON FLOAT----------- */
+.cont_1 {
+    border: 1px dashed red;
+    padding: 10px;
+    overflow: auto;
+}
+
+.card3 {
+    border: 1px dashed blue;
+    background-color: rgb(247, 228, 178);
+    padding: 0px 50px;
+    width: 25%;
+    float: left;
+}
+
+
+
