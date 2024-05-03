@@ -59,5 +59,44 @@ h2 {
     float: left;
 }
 
+/*    ALINEADOS CON INLINEBLOCK-------- */
+.cont_2 {
+    border: 1px dashed red;
+    padding: 10px;
+}
+.card4 {
+    border: 1px dashed blue;
+    background-color: rgb(247, 228, 178);
+    padding: 0px 50px;
+    width: 25%;
+    display: inline-block;
+}
 
+/*    ALINEADOS CON FLEXBOX-------- */
+.cont_3 {
+    border: 1px dashed red;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card5 {
+    border: 1px dashed blue;
+    background-color: rgb(247, 228, 178);
+    padding: 0px 50px;
+    width: 25%;
+}
 
+/*    ALINEADOS CON GRID-------- */
+.cont_4 {
+    border: 1px dashed red;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+}
+.card6 {
+    border: 1px dashed blue;
+    background-color: rgb(247, 228, 178);
+    padding: 0px 50px;
+}
