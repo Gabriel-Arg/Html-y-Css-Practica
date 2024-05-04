@@ -100,3 +100,55 @@ h2 {
     background-color: rgb(247, 228, 178);
     padding: 0px 50px;
 }
+
+/* --------EJERCICIO CLASS ID--------- */
+
+/* Estilos para los botones */
+.boton {
+    margin: 5px;
+    width: 100px;
+}
+.boton:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+/* Estilos base para los círculos */
+.circle {
+    width: 50px; /* Tamaño del círculo */
+    height: 50px; /* Tamaño del círculo */
+    border-radius: 50%; /* Borde redondo para formar el círculo */
+    margin-top: 10px;
+}
+
+/* Estilos del contenedor de bolas */
+.contball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Colores individuales para cada círculo */
+.red { 
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.green { 
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.black { 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 15px;
+}

@@ -125,17 +125,57 @@
         <p>Londres tiene más de 13 millones de habitantes</p>
     </div>
 </div>
+<br><br><br>
+
+<!-- -------------EJERCICIO CON CLASES Y ID---------------------- -->
+<h2 class="titulos2">EJERCICIO PARA USAR CLASS Y ID</h2>
+
+<!-- Botones con clase -->
+<div class="contball">
+    <button class="boton" id="b1">B1</button>
+    <button class="boton" id="b2">B2</button>
+    <button class="boton" id="b3">B3</button>
+</div>
+
+
+<!-- Círculos de colores con clase -->
+<div class="contball">
+    <div id="circleRed" class="circle red">Rojo</div>
+    <div id="circleGreen" class="circle green">Verde</div>
+    <div id="circleBlack" class="circle black">Negro</div>
+</div>
+
+<script>
+    // Función para cambiar la forma del círculo rojo a cuadrado
+function toggleRedShape() {
+    var circleRed = document.getElementById('circleRed');
+    circleRed.style.borderRadius = circleRed.style.borderRadius === '0%' ? '50%' : '0%';
+}
+
+// Función para cambiar la forma del círculo verde a cuadrado
+function toggleGreenShape() {
+    var circleGreen = document.getElementById('circleGreen');
+    circleGreen.style.borderRadius = circleGreen.style.borderRadius === '0%' ? '50%' : '0%';
+}
+
+// Función para cambiar la forma del círculo negro a cuadrado
+function toggleBlackShape() {
+    var circleBlack = document.getElementById('circleBlack');
+    circleBlack.style.borderRadius = circleBlack.style.borderRadius === '0%' ? '50%' : '0%';
+}
+
+// Agregar eventos de clic a los botones
+document.getElementById('b1').addEventListener('click', toggleRedShape);
+document.getElementById('b2').addEventListener('click', toggleGreenShape);
+document.getElementById('b3').addEventListener('click', toggleBlackShape);
+</script>
 
 
 
 
 
 
-
-
-
-
-
+<br><br><br><br>
 
 
 </body>
