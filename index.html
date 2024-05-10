@@ -39,6 +39,33 @@
 <!-- -------------EJERCICIO CON CLASES Y ID---------------------- -->
 <h2 class="titulos2">DESAFIO CON IFRAME</h2>
 
+    <div class="cont-padre">
+        <div class="cont-1">
+            <!-- Botones para cambiar el contenido del iframe -->
+            <button id="btn1" class="boton" onclick="cambiarContenido('https:www.eltribuno.com')">El Tribuno</button>
+            <button class="boton" onclick="cambiarContenido('https:www.lagaceta.com.ar')">La Gaceta</button>
+            <button class="boton" onclick="cambiarContenido('https:circularinfo.ar')">Circulo Info</button>
+            <button class="boton" onclick="cambiarContenido('https:www.lanacion.com.ar')">La Nación</button>
+            <button class="boton" onclick="cambiarContenido('https:www.radiocityfm.com')">Radio City</button>
+        </div>
+
+        <div class="cont-2">
+            <!-- Iframe que mostrará el contenido -->
+            <iframe id="miIframe" src="contenido1.html" title="Contenido"></iframe>
+        </div>
+    </div>
+
+
+    <script>
+        // Función para cambiar el contenido del iframe
+        function cambiarContenido(url) {
+            document.getElementById('miIframe').src = url;
+        }
+    </script>
+
+
+
+
 <br><br><br><br>          
 
 
