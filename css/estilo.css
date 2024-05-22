@@ -66,3 +66,17 @@
 #btn1 {
     border-radius: 10px 0px 0px 0px;
 }
+
+/* -----IMG RESPONSIVE------------- */
+.img_cont {
+    border: 1px dashed red;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+picture {
+    border: dashed blue 1px;
+    height: 100%;
+}

@@ -20,7 +20,7 @@
     <title> W3School Practica </title> <!-- TITULO EN LA PESTAÑA DEL NAVEGADOR -->
     <link rel="icon" href="img/w3s-icon-vector.png"> <!-- ICONO DE LA PESTAÑA DEL NAVEGADOR -->
 
-    <!--FRAMEWORKS Y LIBRERÍAS -->
+    <!--FRAMEWORKS Y LIBRERÍAS --> 
     <!-- GOOGLE FONTS -->
     <!-- FONTAWESOME -->
     <!-- MEDIA QUERIES -->
@@ -64,10 +64,21 @@
         }
     </script>
 
-
-
-
 <br><br><br><br>          
+
+
+<!-- -------------RESPONSIVE---------------------- -->
+<h2 class="titulos2">Img RESPONSIVE</h2>
+
+<div class="img_cont">
+    <picture>
+        <source srcset="./img/messi1.jpg" media="(max-width: 600px)">
+        <source srcset="./img/messi2.jpg" media="(max-width: 1000px)">
+        <source srcset="./img/messi3.jpg" media="(max-width: 1500px)">
+        <source srcset="./img/messi3.jpg">
+        <img src="./img/messi3.jpg" alt="messi">
+    </picture>
+</div>
 
 
 </body>
