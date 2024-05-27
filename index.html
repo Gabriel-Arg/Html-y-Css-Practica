@@ -37,48 +37,14 @@
 
 <body>
 
-<!-- -------------EJERCICIO CON CLASES Y ID---------------------- -->
-<h2 class="titulos2">DESAFIO CON IFRAME</h2>
-
-    <div class="cont-padre">
-        <div class="cont-1">
-            <!-- Botones para cambiar el contenido del iframe -->
-            <button id="btn1" class="boton" onclick="cambiarContenido('https:www.eltribuno.com')">El Tribuno</button>
-            <button class="boton" onclick="cambiarContenido('https:www.lagaceta.com.ar')">La Gaceta</button>
-            <button class="boton" onclick="cambiarContenido('https:circularinfo.ar')">Circulo Info</button>
-            <button class="boton" onclick="cambiarContenido('https:www.lanacion.com.ar')">La Nación</button>
-            <button class="boton" onclick="cambiarContenido('https:www.radiocityfm.com')">Radio City</button>
-        </div>
-
-        <div class="cont-2">
-            <!-- Iframe que mostrará el contenido -->
-            <iframe id="miIframe" src="contenido1.html" title="Contenido"></iframe>
-        </div>
-    </div>
+<!-- -------------PAGINA WEB RESPONSIVE---------------------- -->
+<h2 class="titulos2">EJERCICIO DE PAGINA WEB RESPONSIVE</h2>
 
 
-    <script>
-        // Función para cambiar el contenido del iframe
-        function cambiarContenido(url) {
-            document.getElementById('miIframe').src = url;
-        }
-    </script>
+
 
 <br><br><br><br>          
 
-
-<!-- -------------RESPONSIVE---------------------- -->
-<h2 class="titulos2">Img RESPONSIVE</h2>
-
-<div class="img_cont">
-    <picture>
-        <source srcset="./img/messi1.jpg" media="(max-width: 600px)">
-        <source srcset="./img/messi2.jpg" media="(max-width: 1000px)">
-        <source srcset="./img/messi3.jpg" media="(max-width: 1500px)">
-        <source srcset="./img/messi3.jpg">
-        <img src="./img/messi3.jpg" alt="messi">
-    </picture>
-</div>
 
 
 </body>
