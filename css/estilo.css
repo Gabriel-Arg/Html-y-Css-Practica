@@ -15,7 +15,7 @@
 /* ------------------------------------- */
 
 .cont_padre {
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     height: 97vh;
 
     display: flex;
@@ -25,7 +25,7 @@
 }
 
 .box {
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
     width: 100%;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .hijos {
-    border: 1px dashed rgb(114, 114, 114);
+    /* border: 1px dashed rgb(114, 114, 114); */
     width: 100%;
     height: 31%;
 }
@@ -89,15 +89,86 @@ a {
 }
 
 .hijo2, .hijo3 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 5px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, p {
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: center;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 1.3rem;
+    word-wrap: break-word;
+}
+
+.hijo3 {
+    background-color: rgba(128, 128, 128, 0.2);
 }
 
 /* ------CONTENEDOR INFERIOR   ----------------- */
 .box_3 {
     background-color: rgba(128, 128, 128, 0.2);
     height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+/* -------------------------------------------- */
+/*    Breackpoint a partir de 501px) */
+/* -------------------------------------------- */
+@media screen and (min-width: 701px) {
+    .cont_padre {
+        /* border: 1px dashed red; */
+        height: 99vh;
+    }
+
+    .box_2 {
+        /* background-color: rgba(0, 255, 255, 0.348); */
+        height: 65%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hijos {
+        /* border: 1px dashed rgb(114, 114, 114); */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hijo1 {
+        width: 19%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        border: 1px solid whitesmoke;
+        height: 70%;
+    }
+
+    .hijo2, .hijo3 {
+        /* border: 1px dashed green; */
+        width: 50%;
+        margin: 5px;
+    }
+    .hijo3 {
+        width: 30%;
+    }
+}
 
