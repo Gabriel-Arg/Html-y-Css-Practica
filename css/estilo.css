@@ -13,3 +13,19 @@
     color: rgb(255, 248, 248);
     margin: 0;
 }
+
+/* --------------------------------------------- */
+/* --------------FORMULARIO--------------------- */
+/* --------------------------------------------- */
+
+#form1 {
+    border: 1px dashed red;
+    width: auto;
+    margin: 20px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
