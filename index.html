@@ -45,75 +45,34 @@
         <h2 class="titulos2">FORMULARIOS</h2>
     </div>
 
-    <form id="form1" action="">
-        <h2>Campo de Texto</h2>
-        <label for="formu">Nombre</label>
-        <input id="formu" type="text" value="Ej. Hector" />
-        <br />
-        <label for="formu2">Apellido</label>
-        <input id="formu2" type="text" name="" id="" value="Ej. Nuñez" />
-    </form>
+    <br>
 
-    <form id="form2" action="">
-        <h2>Boton de Radio</h2>
-        <input type="radio" name="" id="naranja" />
-        <label for="naranja">Naranja</label>
-        <br />
-        <input type="radio" name="" id="manzana" />
-        <label for="manzana">Manzana</label>
-        <br />
-        <input type="radio" name="" id="mango" />
-        <label for="mango">Mango</label>
-    </form>
+    <div class="cont_form">
+        <!-- --------FORMULARIO DE VARIAS OPCIONES--------------- -->
+        <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
+            <label for="desayunos">Elige tu desayuno:</label>
+            <select id="desayunos" name="desayuno">
+                <option value="huevos">Huevos</option>
+                <option value="panqueques">Panqueques</option>
+                <option value="cereal">Cereal</option>
+                <option value="avena">Avena</option>
+                <option value="tostadas">Tostadas</option>
+                <option value="fruta">Fruta</option>
+                <!-- Puedes agregar más opciones aquí -->
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
 
-    <form id="form2" action="">
-        <h2>Casilla de Verificación</h2>
-        <input type="checkbox" name="" id="html" />
-        <label for="html">HTML</label>
-        <input type="checkbox" name="" id="css" />
-        <label for="css">CSS</label>
-        <input type="checkbox" name="" id="sass" />
-        <label for="sass">SASS</label>
-        <input type="checkbox" name="" id="js" />
-        <label for="js">JAVASCRIPT</label>
-    </form>
+        <!--     FORMULARIO AREA DE TEXTO--------------------- -->
+        <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
+            <label for="area_txt">Escribe una idea</label>
+            <textarea name="area_txt" id="area_txt"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
 
-    <form id="form2" action="">
-        <h2>Botón Enviar</h2>
-        <label for="nombre">Nombre</label>
-        <input id="nombre" type="text" name="nombre" value="Gabriel" />
-        <br />
-        <label for="apellido">Apellido</label>
-        <input id="apellido" type="text" name="apellido" value="Ej. Nuñez" />
-        <br />
-        <input type="button" value="Ok" />
-        <br />
-        <input type="radio" name="fav_language" />
-        <br />
+    </div>
 
-        <input type="submit" name="" id="" value="Listo" />
-    </form>
 
-    <br /><br /><br />
-
-    <form action="/mi_script_de_procesamiento" method="post" enctype="multipart/form-data" autocomplete="on" novalidate
-        target="_blank">
-        <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="usuario_nombre" required />
-        </div>
-        <div>
-            <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" name="usuario_correo" autocomplete="off" />
-        </div>
-        <div>
-            <label for="archivo">Subir Archivo:</label>
-            <input type="file" id="archivo" name="archivo_usuario" accept=".txt, .pdf" />
-        </div>
-        <div>
-            <button type="submit">Enviar</button>
-        </div>
-    </form>
 
     <br /><br /><br /><br />
 </body>
