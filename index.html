@@ -65,12 +65,41 @@
 
         <!--     FORMULARIO AREA DE TEXTO--------------------- -->
         <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
-            <label for="area_txt">Escribe una idea</label>
+            <label for="area_txt">Introduce un comentario</label>
             <textarea name="area_txt" id="area_txt"></textarea>
             <input type="submit" value="Enviar">
         </form>
 
+        <!--     FORMULARIO CON GRUPO TEMATICO--------------------- -->
+        <form class="formulario1" action="/action_page.php">
+            <fieldset>
+                <legend>GRUPO ESPECIAL:</legend>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Apellido:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+
+        <!--     FORMULARIO CON GRUPO TEMATICO--------------------- -->
+        <form class="formulario1" action="/action_page.php">
+            <label for="lista">Selecciona una opción</label>
+            <input id="lista" list="browsers">
+            <datalist id="browsers">
+                <option value="Papa">
+                <option value="Batata">
+                <option value="Zanahora">
+                <option value="Zapallo">
+                <option value="Choclo">
+            </datalist>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+
     </div>
+
+
 
 
 
