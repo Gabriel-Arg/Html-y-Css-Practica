@@ -42,60 +42,30 @@
 <body>
     <!-- -------------TITULO DE SECCION---------------------- -->
     <div class="titulos">
-        <h2 class="titulos2">FORMULARIOS</h2>
+        <h2 class="titulos2">TIPOS DE ENTRADA: input type="..."</h2>
     </div>
 
     <br>
 
     <div class="cont_form">
-        <!-- --------FORMULARIO DE VARIAS OPCIONES--------------- -->
+        <!-- --------INPUT TIPO TEXTO--------------- -->
         <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
-            <label for="desayunos">Elige tu desayuno:</label>
-            <select id="desayunos" name="desayuno">
-                <option value="huevos">Huevos</option>
-                <option value="panqueques">Panqueques</option>
-                <option value="cereal">Cereal</option>
-                <option value="avena">Avena</option>
-                <option value="tostadas">Tostadas</option>
-                <option value="fruta">Fruta</option>
-                <!-- Puedes agregar más opciones aquí -->
-            </select>
-            <input type="submit" value="Enviar">
+            <h3>Entrada de texto</h3>
+            <label class="label-subtitulo" for="texto">Ingrese un texto</label>
+            <input class="entrada" id="texto" name="texto" type="text">
+            <input class="btn-enviar" type="submit" value="Enviar">
         </form>
 
-        <!--     FORMULARIO AREA DE TEXTO--------------------- -->
+        <!-- --------INPUT TIPO CONTRASEÑA--------------- -->
         <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
-            <label for="area_txt">Introduce un comentario</label>
-            <textarea name="area_txt" id="area_txt"></textarea>
-            <input type="submit" value="Enviar">
+            <h3>Entrada de contraseña</h3>
+            <label class="label-subtitulo" for="texto">Usuario</label>
+            <input class="entrada" id="texto" name="texto" type="text">
+            <label class="label-subtitulo" for="texto">Contraseña</label>
+            <input class="entrada" id="texto" name="texto" type="password">
+            <input class="btn-enviar" type="submit" value="Enviar">
         </form>
 
-        <!--     FORMULARIO CON GRUPO TEMATICO--------------------- -->
-        <form class="formulario1" action="/action_page.php">
-            <fieldset>
-                <legend>GRUPO ESPECIAL:</legend>
-                <label for="fname">Nombre:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="lname">Apellido:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe"><br><br>
-                <input type="submit" value="Enviar">
-            </fieldset>
-        </form>
-
-        <!--     FORMULARIO CON GRUPO TEMATICO--------------------- -->
-        <form class="formulario1" action="/action_page.php">
-            <label for="lista">Selecciona una opción</label>
-            <input id="lista" list="browsers">
-            <datalist id="browsers">
-                <option value="Papa">
-                <option value="Batata">
-                <option value="Zanahora">
-                <option value="Zapallo">
-                <option value="Choclo">
-            </datalist>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
 
     </div>
 

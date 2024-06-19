@@ -41,3 +41,26 @@
     justify-content: center;
     align-items: flex-start;
 }
+
+.label-subtitulo {
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+    color: rgb(45, 45, 45);
+}
+
+.entrada {
+    margin-bottom: 10px;
+}
+
+.btn-enviar {
+    background-color: rgb(170, 176, 208);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: rgb(45, 45, 45);
+    width: 70px;
+    cursor: pointer;
+}
+.btn-enviar:hover {
+    background-color: rgb(210, 185, 22);
+}
