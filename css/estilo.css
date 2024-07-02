@@ -64,3 +64,17 @@
 .btn-enviar:hover {
     background-color: rgb(210, 185, 22);
 }
+
+.btn-reset {
+    margin-top: 10px;
+    background-color: rgba(170, 176, 208, 0.437);
+    color: rgba(45, 45, 45, 0.7);
+}
+
+.form-row {
+    /* border: 1px dashed red; */
+}
+
+#radio1 {
+    margin-bottom: 10px;
+}

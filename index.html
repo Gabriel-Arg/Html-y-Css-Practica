@@ -66,6 +66,42 @@
             <input class="btn-enviar" type="submit" value="Enviar">
         </form>
 
+        <!-- --------INPUT TIPO SUBMIT--------------- -->
+        <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
+            <h3>Botón Enviar</h3>
+            <label class="label-subtitulo" for="texto">Ingrese un texto</label>
+            <input class="entrada" id="texto" name="texto" type="text">
+            <input class="btn-enviar" type="submit" value="Mandar">
+        </form>
+
+        <!-- --------INPUT TIPO RESET--------------- -->
+        <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
+            <h3>Botón Reset</h3>
+            <label class="label-subtitulo" for="texto">Ingrese un texto</label>
+            <input class="entrada" id="texto" name="texto" type="text" value="Nombre y Apellido">
+            <input class="btn-enviar" type="submit" value="Mandar">
+            <input class="btn-enviar btn-reset" type="reset" value="Borrar">
+        </form>
+
+        <!-- --------INPUT TIPO RADIO--------------- -->
+        <form class="formulario1" action="/destino-del-formulario" method="post" target="_blank">
+            <h3>Entrada de Opciones</h3>
+            <p>Seleccione un Desayuno</p>
+            <div class="form-row">
+                <input type="radio" id="cafe" name="desayuno" value="cafe">
+                <label class="label-subtitulo" for="cafe">Café</label>
+            </div>
+            <div class="form-row">
+                <input type="radio" id="leche" name="desayuno" value="leche">
+                <label class="label-subtitulo" for="leche">Leche</label>
+            </div>
+            <div id="radio1" class="form-row">
+                <input type="radio" id="mate" name="desayuno" value="mate">
+                <label class="label-subtitulo" for="mate">Mate</label>
+            </div>
+            <input class="btn-enviar" type="submit" value="Enviar">
+        </form>
+
 
     </div>
 
