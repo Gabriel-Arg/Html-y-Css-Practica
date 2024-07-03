@@ -19,7 +19,7 @@
 /* --------------------------------------------- */
 
 .cont_form {
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     padding: 20px;
     display: flex;
     flex-direction: row;
